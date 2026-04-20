@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>\
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="font-sans bg-slate-900 text-slate-100">
+  <nav class="fixed w-full bg-blue-950 flex p-4">
+    <ul class="flex space-x-8 font-medium text-blue-100 ml-auto">
+      <li><a href="#home" class="hover:text-blue-600">Home</a></li>
+      <li><a href="#projects" class="hover:text-blue-600">Projects</a></li>
+      <li><a href="#about" class="hover:text-blue-600">About</a></li>
+       <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="h-screen flex items-center justify-center text-white">
+    <div class="text-center">
+      <div class="flex flex-col items-center mb-6">
+        <img src="WhatsApp Image 2026-04-14 at 09.17.07.jpeg" class="rounded-full w-42 h-42 object-cover border-2  border-white">
+      </div>
+      <h2 class="text-6xl font-extrabold">
+        Halo, Saya T.W Riandiva</h2>
+      <p class="mt-4">Saya adalah mahasiswa Sistem Informasi Universitas Tunojoyo Madura</p>  
+      <div class="mt-5 flex gap-4 justify-center">
+        <a href="#projects" class="bg-blue-600 font-semibold px-6 py-3 rounded-lg  hover:bg-blue-800">Lihat Portofolio</a>
+        <a href="#contact" class="bg-white text-slate-900 font-semibold px-6 py-3 rounded-lg hover:bg-slate-400">Hubungi Saya</a>
+      </div>
+    </div>
+  </section>
+
+<section id="projects" class="py-20 px-6 bg-slate-800">
+      <h3 class="text-3xl font-bold mb-12">Portofolio</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <a href="project-a.html">
+        <div class="bg-slate-700 rounded-2xl overflow-hidden hover:scale-105">
+          <div class="h-55 bg-slate-200">
+            <img src="cover.png" class="w-full h-full object-cover">
+          </div>
+          <div class="p-4">
+            <h4 class="text-xl font-bold">Band Merch Landing Page</h4>
+            <p class="text-slate-300 mt-2 text-sm">
+              Landing page merch band dengan copywriting otentik dan visual yang menarik.
+            </p>
+          </div>
+        </div>
+      </a>
+
+      <a href="project-b.html">
+        <div class=" bg-slate-700 rounded-2xl overflow-hidden hover:scale-105">
+          <div class="h-55">
+            <img src="GRAPHIC DESIGN.png" class="w-full h-full object-cover">
+          </div>
+          <div class="p-4">
+            <h4 class="text-xl font-bold">Graphic Design</h4>
+            <p class="text-slate-300 mt-2 text-sm">
+              seni komunikasi visual yang menyusun elemen-elemen untuk menyampaikan pesan secara efektif.
+            </p>
+          </div>
+        </div>
+      </a>
+
+      <a href="project-c.html">
+        <div class="bg-slate-700 rounded-2xl overflow-hidden hover:scale-105">
+          <div class="h-55">
+            <img src="Cuplikan layar 2026-04-15 085641.png" 
+                 class="w-full h-full object-cover">
+          </div>
+          <div class="p-4">
+            <h4 class="text-xl font-bold">Landing Page</h4>
+            <p class="text-slate-300 mt-2 text-sm">
+              Landing page PT Bank Rakyat Indonesia dengan visual yang merepresentasikan layanan perbankan modern.
+            </p>
+          </div>
+        </div>
+      </a>
+    </div>
+</section>
+
+  <footer id="contact" class="bg-slate-900 text-slate-400 py-12 px-6">
+        <h2 class="text-white text-2xl font-bold">Contact</h2>
+        <p>Email: rdtriwidia@gmail.com | Telp : +62 89 5378 59667</p>
+    <div class="border-t border-slate-800 mt-12 pt-8 text-center text-sm">
+      &copy; 2026 TwRiandiva. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>

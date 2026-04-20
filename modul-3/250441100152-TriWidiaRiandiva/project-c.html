@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BRI Company Profile</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans">
+
+  <nav class="fixed w-full bg-blue-100">
+    <div class="p-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-950">BRI</h1>
+      <ul class="flex space-x-6 font-medium text-sm text-slate-800">
+        <li><a href="#home" class="hover:text-blue-600">Home</a></li>
+        <li><a href="#about" class="hover:text-blue-600">About</a></li>
+        <li><a href="#services" class="hover:text-blue-600">Services</a></li>
+        <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="home" class="h-screen flex items-center justify-center bg-blue-900 text-white text-center">
+    <div>
+      <h2 class="text-6xl font-extrabold mb-5">WELCOME TO BRI</h2>
+      <p>PT Bank Rakyat Indonesia (Persero) Tbk (BRI)</p>
+      <div class="mt-8 justify-center">
+        <a href="#services" class="bg-white text-blue-900 px-6 py-3 rounded-lg hover:bg-blue-200">Our Services</a>
+        <a href="#contact" class="bg-slate-900 text-white px-6 py-3 rounded-lg hover:bg-slate-800">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="py-24 px-8 bg-white">
+    <div class="grid md:grid-cols-2 gap-6 items-center">
+      <img src="bank-rakyat-indonesia-logo-png_seeklogo-474339.png">
+      <div>
+        <h3 class="text-3xl font-bold mb-4">About Us</h3>
+        <p class="text-slate-600 text-justify">
+          Bank Rakyat Indonesia (BRI) adalah salah satu bank milik negara terbesar di Indonesia yang didirikan pada 16 Desember 1895 di Purwokerto oleh Raden Bei Aria Wirjaatmadja. Berfokus pada pemberdayaan UMKM dan inklusi keuangan, BRI berkomitmen memberikan solusi perbankan terintegrasi dengan prinsip Good Corporate Governance.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="py-24 bg-slate-100 px-6">
+    <div>
+      <h3 class="text-3xl font-bold text-center mb-12">Our Services</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h4 class="text-xl font-semibold mb-2">API BRIVA</h4>
+          <p class="text-slate-600">Pengelolaan virtual account, serta platform QLola untuk internet banking korporasi.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h4 class="text-xl font-semibold mb-2">Digital CS</h4>
+          <p class="text-slate-600">Layanan mandiri untuk kebutuhan nasabah yang diakses secara online.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h4 class="text-xl font-semibold mb-2">QLola by BRI</h4>
+          <p class="text-slate-600">Platform terintegrasi untuk cash management, trade finance, bagi nasabah bisnis.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="text-center mb-12">
+      <a href="portofolio.html" 
+         class="inline-block bg-black text-white px-6 py-3 rounded-lg hover:bg-slate-500">
+        Kembali ke Halaman Utama
+      </a>
+  </div>
+
+</body>
+</html>

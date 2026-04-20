@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Project A - Band Merch Landing Page</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style>
+  .utama {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 60px;
+      background-color: white;
+    }
+
+    .teks-utama {
+      max-width: 500px;
+    }
+
+    .teks-utama h2 {
+      font-size: 250%;
+      color: #222;
+      font-weight: 700;
+    }
+
+    .teks-utama p {
+      color: #555;
+      text-align: justify;
+    }
+      #produk-img {
+      width: 400px;
+    }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+<header class="bg-black text-white py-12 text-center">
+  <h1 class="text-5xl font-extrabold">BAND MERCH THE JEBLOGS</h1>
+</header>
+
+<div class="utama">
+    <div class="teks-utama">
+      <h2>Merch Band, Bukan Sekadar Fashion</h2>
+      <p>Kaos band eksklusif dengan desain autentik, dibuat untuk kamu yang hidup dengan musik dan ingin mengekspresikan identitas di setiap langkah.</p>
+      </div>
+      <img src="T-shirt.jpg" id="produk-img">
+    </div>
+
+<section class="py-12 px-8">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div class="bg-white shadow rounded-lg overflow-hidden">
+      <img src="T-shirt.jpg" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h2 class="font-bold text-lg">Merch T-Shirt</h2>
+        <p class="text-sm text-slate-600">Desain kaos dengan logo band dan tipografi khas.</p>
+      </div>
+    </div>
+
+    <div class="bg-white shadow rounded-lg overflow-hidden">
+      <img src="images.jpg" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h2 class="font-bold text-lg">The Jeblogs</h2>
+        <p class="text-sm text-slate-600">Poster promosi konser dengan layout visual modern.</p>
+      </div>
+    </div>
+
+      <div class="bg-white shadow rounded-lg overflow-hidden">
+        <img src="cover.png" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h2 class="font-bold text-lg">Cover Album Vinyl</h2>
+          <p class="text-sm text-slate-600">Desain cover album dengan ilustrasi artistik.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="text-center mt-12">
+      <a href="portofolio.html" 
+         class="inline-block bg-black text-white px-6 py-3 rounded-lg hover:bg-slate-500">
+        Kembali ke Halaman Utama
+      </a>
+    </div>
+  </section>
+
+</body>
+</html>
